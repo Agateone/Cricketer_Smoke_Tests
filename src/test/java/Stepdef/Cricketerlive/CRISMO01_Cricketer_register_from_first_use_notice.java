@@ -28,7 +28,7 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 	@Test(priority=1)
 	@Parameters("browser")
 	public void i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_Cricketer_FUN(String browser) throws Throwable {
-		System.out.println("Executing POPSMO01_Cricketer_register_from_first_use_notice");
+		System.out.println("Executing CRISMO01_Cricketer_register_from_first_use_notice");
 		
 				//chrome
 		if (browser.equalsIgnoreCase("chrome")) { 
@@ -44,6 +44,8 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 			{
 				System.out.println("Clicking on create wallet opened registration page");
 			}
+			System.out.println("1 of 6");
+			
 	} 
 	
 				
@@ -58,6 +60,7 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 	
 		Register_Page_Elements1 Reg_page_elements = new Register_Page_Elements1(driver);
 		Reg_page_elements.Registration_Step1();
+		System.out.println("2 of 6");
 		
 	}
 
@@ -70,6 +73,7 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 		Reg_page_elements.voucher_process();
 		Thread.sleep(5000);
 		Reg_page_elements.click_continue_on_reg_page2();
+		System.out.println("3 of 6");
 	}
 	
 	
@@ -81,6 +85,7 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 		String actual_current_balance=w1.current_balance();
 		String expected_current_balance="10.00";
 		Assert.assertEquals(actual_current_balance, expected_current_balance);
+		System.out.println("4 of 6");
 	}
 
 	
@@ -89,7 +94,8 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 	public void navigated_to_the_same_article() throws Throwable {
 	    String actual_url= driver.getCurrentUrl();
 	    String expected_url = "https://www.thecricketer.com/Topics/premimum_features/englishman_in_antigua_johnny_grave_is_in_charge_of_west_indies_cricket_trying_to_lead_a_renaissance_and_beating_joe_roots_men_did_no_harm.html";
-	    Assert.assertEquals(actual_url, expected_url);	
+	    Assert.assertEquals(actual_url, expected_url);
+	    System.out.println("5 of 6");
 	}
 	
 	
@@ -101,6 +107,7 @@ public class CRISMO01_Cricketer_register_from_first_use_notice {
 		Boolean Expected_result= true;
 		Assert.assertEquals(Actual_result, Expected_result);
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		System.out.println("6 of 6");
 		driver.quit();
 	}
 	
