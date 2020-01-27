@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Popbitch Safari" duration-ms="89133" started-at="2020-01-27T10:18:50Z" finished-at="2020-01-27T10:20:19Z">
+    <groups>
+    </groups>
+    <test name="Signup_from_FUN" duration-ms="89133" started-at="2020-01-27T10:18:50Z" finished-at="2020-01-27T10:20:19Z">
+      <class name="Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice">
+        <test-method status="PASS" signature="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_Cricketer_FUN(java.lang.String)[pri:1, instance:Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice@210366b4]" name="i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_Cricketer_FUN" duration-ms="7809" started-at="2020-01-27T10:18:50Z" finished-at="2020-01-27T10:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_a_user_of_Axate_and_I_am_on_the_registration_page_through_Cricketer_FUN -->
+        <test-method status="PASS" signature="i_enter_all_the_required_details_on_step_one_and_click_on_continue()[pri:2, instance:Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice@210366b4]" name="i_enter_all_the_required_details_on_step_one_and_click_on_continue" duration-ms="32875" started-at="2020-01-27T10:18:58Z" finished-at="2020-01-27T10:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_enter_all_the_required_details_on_step_one_and_click_on_continue -->
+        <test-method status="PASS" signature="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue()[pri:3, instance:Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice@210366b4]" name="top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue" duration-ms="32448" started-at="2020-01-27T10:19:31Z" finished-at="2020-01-27T10:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- top_up_with_a_valid_card_in_steptwo_with_one_pound_and_click_on_continue -->
+        <test-method status="PASS" signature="i_get_a_funded_axate_wallet_with_one_pound_in_it()[pri:4, instance:Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice@210366b4]" name="i_get_a_funded_axate_wallet_with_one_pound_in_it" duration-ms="15786" started-at="2020-01-27T10:20:03Z" finished-at="2020-01-27T10:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_get_a_funded_axate_wallet_with_one_pound_in_it -->
+        <test-method status="PASS" signature="navigated_to_the_same_article()[pri:5, instance:Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice@210366b4]" name="navigated_to_the_same_article" duration-ms="5" started-at="2020-01-27T10:20:19Z" finished-at="2020-01-27T10:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigated_to_the_same_article -->
+        <test-method status="PASS" signature="finish_notice_appears()[pri:6, instance:Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice@210366b4]" name="finish_notice_appears" duration-ms="176" started-at="2020-01-27T10:20:19Z" finished-at="2020-01-27T10:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish_notice_appears -->
+      </class> <!-- Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice -->
+    </test> <!-- Signup_from_FUN -->
+  </suite> <!--  Popbitch Safari -->
+</testng-results>
