@@ -6,7 +6,8 @@
     <classes>
   
  <class name="Stepdef.Cricketerlive.CRISMO01_Cricketer_register_from_first_use_notice"/>
-   	 
+  
+  <class name="Stepdef.Cricketerlive.CRISMO02_Cricketer_register_from_wallet"/>	 
     </classes>
   </test> 
   </suite>
